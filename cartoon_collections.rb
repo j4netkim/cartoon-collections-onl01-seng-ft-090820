@@ -10,6 +10,7 @@ end
 
 roll_call_dwarves(dwarves)
 
+
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(array)
@@ -20,8 +21,11 @@ def summon_captain_planet(array)
     .capitalize + "!"
     i += 1
   end
-  array_one 
+  array_one
 end
+
+summon_captain_planet(planeteer_calls)
+
 
 def long_planeteer_calls
 
