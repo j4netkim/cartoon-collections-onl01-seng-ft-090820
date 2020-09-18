@@ -27,6 +27,8 @@ end
 summon_captain_planet(planeteer_calls)
 
 
+call_screams = ["Yikes", "eek", "boom", "pow", "Kapow"]
+
 def long_planeteer_calls(array)
   i = 0
   if array.any? {|i| i.length > 4}
