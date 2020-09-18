@@ -34,8 +34,10 @@ def long_planeteer_calls(array)
   else
     false
     i = i + 1
-  end 
+  end
 end
+
+long_planeteer_calls(call_screams)
 
 def find_the_cheese
 
